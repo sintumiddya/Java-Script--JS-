@@ -1,0 +1,23 @@
+/*
+
+     Create a function using the "function" keyword 
+     that takes a Strign as an argument & returns 
+     the number of vowels in the string.
+
+     ** Using the arrow function***
+ 
+*/
+
+const vowelCount = (str) => {
+    let count = 0;
+    for (char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+let totalVowel = vowelCount("hello my name is sintu middya");
+console.log(totalVowel);

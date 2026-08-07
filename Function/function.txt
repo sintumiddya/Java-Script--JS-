@@ -1,0 +1,39 @@
+** Function :
+
+    Function is a Block of code that performs a 
+    specific task, can be invoked(call) whenever needed 
+
+
+
+    ------------------------------------------------------------------------
+
+
+
+** Why Use Functions?
+
+    1. Reuse code without repeating it.
+    2. Make programs easier to read and maintain.
+    3. Break large programs into smaller, manageable parts.
+    4. Reduce errors by keeping logic in one place.
+
+
+    -------------------------------------------------------------------
+
+** function syntex ........
+
+    // Function defination 
+
+  1)  function functionName(){
+         do some work ......
+    }
+
+
+    2) function functionName(param1, param2){
+        do some work ......
+    }
+
+
+
+    // function call 
+
+    functionName();

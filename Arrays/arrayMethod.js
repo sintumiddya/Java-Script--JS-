@@ -36,6 +36,18 @@ console.log(mergedArray);
 let slicedArray = mergedArray.slice(1, 4);
 console.log(slicedArray);
 
-// splice(): adds/removes elements from an array
-mergedArray.splice(2, 1, "Strawberry", "Blueberry");
-console.log(mergedArray);
+// splice(): adds / removes elements from an array
+let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let spliceNum = num.splice(1, 2, 120, 130);
+
+// add 
+let addNum = num.splice(2, 0, 111);
+console.log(num);
+
+// delete
+let delNum = num.splice(3, 1);
+console.log(num);
+
+// replace 
+let repNum = num.splice(3, 1, 88);
+console.log(num);
