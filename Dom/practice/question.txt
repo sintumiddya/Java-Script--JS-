@@ -1,0 +1,12 @@
+Q1 . Create a new button element. Give it a text "Click Me",
+     background color of red & text color of white.
+
+         Insert the button as the first element inside the body tag.
+
+
+Q2.   Create a <p> tag in thml, give it a class & some styling.
+      Now create a new calss in CSS and try to append 
+      this class to the <p> element.
+
+      Did you notice , how you overwrite the class name when you add a new one ?
+      Sovle this problem using classLinst.

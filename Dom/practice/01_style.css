@@ -1,0 +1,11 @@
+.para {
+  min-height: 50px;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.newPara {
+  color:red;
+}

@@ -24,20 +24,20 @@ let newArr = arr.map((val)=>{
 
 */
 
-let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-nums.map((val) => {
-    console.log(val);
-})
+// nums.map((val) => {
+//     console.log(val);
+// })
 
 
-// create a new array from a array using by map function 
+// // create a new array from a array using by map function 
 
-let newArray = nums.map((val) => {
-    return val * 2;
-})
+// let newArray = nums.map((val) => {
+//     return val * 2;
+// })
 
-console.log(newArray);
+// console.log(newArray);
 
 
 //--------------------------------------------------------------
@@ -52,7 +52,39 @@ console.log(newArray);
 
 
     ** Syntex
+
     let newArr = arr.filter((val)=>{
         return val % 2 =0;
         })
 */
+
+// find the even value 
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// let evenarr= arr.filter((val) => {
+//     return val % 2 === 0;
+// })
+
+// console.log(evenarr);
+
+
+
+
+/*
+some more array methods 
+----------------------------------
+Reduce :
+
+Preforms some operation & reduces the array to single value. returns
+that single value.
+
+
+*/
+
+let arr = [1, 2, 3];
+
+const output = arr.reduce((res, curr) => {
+    return res + curr;
+})
+
+console.log(output);
