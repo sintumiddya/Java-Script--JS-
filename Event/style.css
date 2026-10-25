@@ -1,0 +1,15 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.box_demo2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 47);
+    color: white;
+    text-align: center;
+}
